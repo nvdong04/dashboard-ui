@@ -3,6 +3,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+
+  input {
+    border-width: 1px;
+    @apply bg-white;
+    font-size: .875rem;
+    line-height: 1.5715;
+    @apply text-slate-800;
+    border-radius: 0.25rem;
+  }
+
+   .btn-primary {
+    @apply bg-indigo-500;
+   }
+}
+
 body {
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -18,7 +34,24 @@ code {
     monospace;
 }
 
-input, select {
+[type="text"], [type="email"], [type="url"], [type="password"], [type="number"], [type="date"], [type="datetime-local"], [type="month"], [type="search"], [type="tel"], [type="time"], [type="week"], [multiple], textarea, select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  border-color: #6b7280;
+  border-width: 1px;
+  border-radius: 0px;
+  padding-top: 0.5rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  --tw-shadow: 0 0 #0000;
+}
+
+/* input {
   border-width: 1px;
     --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -27,7 +60,7 @@ input, select {
   --tw-text-opacity: 1;
   color: rgb(30 41 59 / var(--tw-text-opacity));
   border-radius: 0.25rem;
-}
+} */
 
 select {
   background-image: url(data:image/svg+xml,%3csvg\ xmlns=\'http://www.w3.org/2000/svg\'\ fill=\'none\'\ viewBox=\'0\ 0\ 20\ 20\'%3e%3cpath\ stroke=\'%236b7280\'\ stroke-linecap=\'round\'\ stroke-linejoin=\'round\'\ stroke-width=\'1.5\'\ d=\'M6\ 8l4\ 4\ 4-4\'/%3e%3c/svg%3e);
@@ -64,7 +97,17 @@ input:focus-visible {
   box-shadow: var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000);
 }
 
-.input__text, select {
+.input-d, .select-d {
+    border-width: 1px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255/var(--tw-bg-opacity));
+}
+
+.input-d, .select-d {
+  border-radius: 0.25rem;
+}
+
+.input-d, .select-d {
   --tw-border-opacity: 1;
     border-color: rgb(226 232 240 / var(--tw-border-opacity));
     padding-top: 0.5rem;
@@ -75,6 +118,33 @@ input:focus-visible {
     --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
     --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+}
+
+input[type="checkbox"] {
+
+}
+
+.checkbox-d {
+  -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    display: inline-block;
+    vertical-align: middle;
+    background-origin: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    flex-shrink: 0;
+    height: 1rem;
+    width: 1rem;
+    color: #2563eb;
+    background-color: #fff;
+    border-color: #6b7280;
+    border-width: 1px;
+    --tw-shadow: 0 0 #0000;
 }
 
 .btn {

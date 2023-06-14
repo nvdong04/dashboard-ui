@@ -17,7 +17,7 @@ function SignIn() {
                     </label>
                     <input
                       id="email"
-                      className="input__text w-full focus-visible:outline-none"
+                      className="input-d w-full focus-visible:outline-none"
                       type="email"
                     />
                   </div>
@@ -30,7 +30,7 @@ function SignIn() {
                     </label>
                     <input
                       id="password"
-                      className="input__text w-full focus-visible:outline-none"
+                      className="input-d w-full focus-visible:outline-none"
                       type="password"
                       autoComplete="on"
                     />
