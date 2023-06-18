@@ -1,18 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import { BrowserRouter as Router } from 'react-router-dom';
+//import { BrowserRouter as Router } from 'react-router-dom';
 import './index.css';
 import 'normalize.css';
 import App from './App';
-import SignIn from './pages/SignIn';
-import SignUp from './pages/SignUp';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <Router> */}
-      <SignUp />
+      <App />
     {/* </Router> */}
   </React.StrictMode>
 );
