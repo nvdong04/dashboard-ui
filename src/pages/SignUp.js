@@ -18,7 +18,7 @@ function SignUp() {
                     </label>
                     <input
                       id="email"
-                      className="input-d w-full focus-visible:outline-none"
+                      className="input w-full"
                       type="email"
                     />
                   </div>
@@ -32,7 +32,7 @@ function SignUp() {
                     </label>
                     <input
                       id="name"
-                      className="input-d w-full focus-visible:outline-none"
+                      className="input w-full"
                       type="text"
                     />
                   </div>
@@ -44,7 +44,7 @@ function SignUp() {
                       Your Role
                       <span className="text-rose-500">*</span>
                     </label>
-                    <select id="role" className="w-full pr-10 select-d">
+                    <select id="role" className="w-full pr-10 select">
                         <option>Designer</option>
                         <option>Developer</option>
                         <option>Accountant</option>
@@ -60,7 +60,7 @@ function SignUp() {
                     </label>
                     <input
                       id="password"
-                      className="input-d w-full focus-visible:outline-none"
+                      className="input w-full"
                       type="password"
                       autoComplete="on"
                     />
@@ -74,7 +74,7 @@ function SignUp() {
                 </label>
                   </div>
                   <a
-                    className="btn btn-primary xs text-white ml-3"
+                    className="btn btn-primary xs whitespace-nowrap text-white ml-3"
                     href="signup.html"
                   >
                     Sign Up

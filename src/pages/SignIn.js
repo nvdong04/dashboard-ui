@@ -17,7 +17,7 @@ function SignIn() {
                     </label>
                     <input
                       id="email"
-                      className="input-d w-full focus-visible:outline-none"
+                      className="input w-full"
                       type="email"
                     />
                   </div>
@@ -30,7 +30,7 @@ function SignIn() {
                     </label>
                     <input
                       id="password"
-                      className="input-d w-full focus-visible:outline-none"
+                      className="input w-full"
                       type="password"
                       autoComplete="on"
                     />
@@ -46,7 +46,7 @@ function SignIn() {
                     </a>
                   </div>
                   <a
-                    className="btn bg-indigo-500 xs text-white ml-3"
+                    className="btn bg-indigo-500 xs whitespace-nowrap text-white ml-3"
                     href="index.html"
                   >
                     Sign In
