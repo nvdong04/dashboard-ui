@@ -14,7 +14,7 @@ function SignUp() {
                       htmlFor="email"
                     >
                       Email Address
-                      <span className="text-rose-500">*</span>
+                      <span className="text-rose-500"> *</span>
                     </label>
                     <input
                       id="email"
@@ -28,7 +28,7 @@ function SignUp() {
                       htmlFor="name"
                     >
                       Full Name
-                      <span className="text-rose-500">*</span>
+                      <span className="text-rose-500"> *</span>
                     </label>
                     <input
                       id="name"
@@ -42,7 +42,7 @@ function SignUp() {
                       htmlFor="name"
                     >
                       Your Role
-                      <span className="text-rose-500">*</span>
+                      <span className="text-rose-500"> *</span>
                     </label>
                     <select id="role" className="w-full pr-10 select">
                         <option>Designer</option>
@@ -56,7 +56,7 @@ function SignUp() {
                       htmlFor="password"
                     >
                       Password
-                      <span className="text-rose-500">*</span>
+                      <span className="text-rose-500"> *</span>
                     </label>
                     <input
                       id="password"
@@ -69,12 +69,12 @@ function SignUp() {
                 <div className="flex items-center justify-between mt-6">
                   <div className="mr-1">
                   <label className="flex items-center">
-                    <input type="checkbox" className="checkbox-d text-indigo-500 border border-slate-300"/>
+                    <input type="checkbox" className="checkbox"/>
                     <span className="text-sm ml-2">Email me about product news.</span>
                 </label>
                   </div>
                   <a
-                    className="btn btn-primary xs whitespace-nowrap text-white ml-3"
+                    className="btn btn-primary xs whitespace-nowrap ml-3"
                     href="signup.html"
                   >
                     Sign Up

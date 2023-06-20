@@ -46,7 +46,7 @@ function SignIn() {
                     </a>
                   </div>
                   <a
-                    className="btn bg-indigo-500 xs whitespace-nowrap text-white ml-3"
+                    className="btn bg-indigo-500 xs whitespace-nowrap ml-3"
                     href="index.html"
                   >
                     Sign In
