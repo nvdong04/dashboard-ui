@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 # dashboard-ui
 UI clone of https://preview.cruip.com/mosaic/index.html
+https://github.com/cruip/laravel-tailwindcss-admin-dashboard-template
 =======
 # Getting Started with Create React App
 

@@ -59,7 +59,7 @@ function LayoutAuthentication({children}) {
                 </a>
               </div>
             </div>
-            <div className="max-w-sm mx-auto px-4 py-8">
+            <div className="w-full max-w-sm mx-auto px-4 py-8">
               {children}
             </div>
           </div>
